@@ -111,6 +111,7 @@
 (def => :ret)
 (def | :st)
 (def <- :gen)
+(def << :args-gen)
 
 
 (defmacro ? [& forms]
