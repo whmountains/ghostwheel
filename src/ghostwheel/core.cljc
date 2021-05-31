@@ -549,8 +549,8 @@
   (let [{argspec-def              :args
          retspec                  :ret
          fn-such-that             :fn-such-that
-         {:keys [gen-fn] :as gen} :gen}
-         {:keys [args-gen-fn] :as args-gen} :args-gen}
+         {:keys [gen-fn] :as gen} :gen
+         {:keys [args-gen-fn]} :args-gen}
         conformed-gspec]
     (if (and anon-fspec?
              argspec-def
